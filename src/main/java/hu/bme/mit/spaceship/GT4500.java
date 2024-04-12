@@ -94,4 +94,4 @@ public class GT4500 implements SpaceShip {
   }
 
 }
-//Merge conflict A
+//Merge conflict solved A and B 
