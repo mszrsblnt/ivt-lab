@@ -38,3 +38,15 @@ The project represents an alpha version of a spaceship.
 - There are currently two tests (`GT4500Test`), but be aware that they are not proper unit tests, as they do not isolate the dependencies of the tested class.
 
 The code can be built, but due to missing features one of the tests fails. The first execercise will be to fix this.
+
+
+## GT4500 Tests
+### SINGLE MODE:
+- Először a primary torpedó lő. (Mindkettőben van töltet)
+- Ha utoljára a primary tüzelt, akkor a secondarynak kell utána lőnie. (Mindkettőben van töltet)
+- Ha utoljára a primary tüzelt és a secondary üres, de a primary nem üres, akkor a primary-nak kell megint lőnie. (Csak primary-ben van tölet)
+- Ha mindkettő üres egyik sem lő.
+- Ha utoljára secondary torpedó tüzelt és a primary torpedó nem üres akkor a primary-nak kell lőnie. (Mindekettőben van töltet)
+
+### ALL MODE:
+- ellövi mindkét torpedót (Mindkettőben van töltet)
